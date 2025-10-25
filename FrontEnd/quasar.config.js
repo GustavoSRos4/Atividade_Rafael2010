@@ -74,6 +74,13 @@ export default defineConfig((/* ctx */) => {
     devServer: {
       // https: true,
       open: true, // opens browser window automatically
+      proxy: {
+        '/api': {
+          target: 'https://upgraded-computing-machine-97x4g77745f9rq7-8080.app.github.dev',
+          changeOrigin: true,
+          secure: true,
+        },
+      },
     },
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#framework

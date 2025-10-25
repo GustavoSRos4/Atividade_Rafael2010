@@ -1,8 +1,8 @@
 {
   "name": "atv",
   "version": "0.0.1",
-  "description": "Atividade Spting",
-  "productName": "AtvSpting",
+  "description": "Atividade Spring",
+  "productName": "AtvSpring",
   "author": "Gustavo Silvério Rosa <105025089+GustavoSRos4@users.noreply.github.com>",
   "type": "module",
   "private": true,
